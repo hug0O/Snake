@@ -2,8 +2,8 @@
 #include <conio.h>
 #include <Windows.h>
 bool gameOver;
-const int width = 20;
-const int height = 20;
+const int width = 40;
+const int height = 40;
 int tailX[100], tailY[100];
 int nTail = 0;
 int x, y,fruitX, fruitY, score;
@@ -69,6 +69,7 @@ void Draw() {
 	std::cout << "x : " << x << " y : " << y << std::endl;
 	std::cout << "fruitX : " << fruitX << " fruitY : " << fruitY << std::endl;
 	std::cout << "Score : " << score;
+
 }
 
 /*
